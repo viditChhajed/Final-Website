@@ -10,12 +10,12 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
-  background-color: #353b43;
+  background-color: #345b45;
   color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
+  background-color: #345b45;
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -555,7 +555,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #8b6723ec;
   width: 100%;
   z-index: 99;
   margin-bottom: 0;
@@ -574,12 +574,12 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #57cbcc;
+  color: #0aa037;
 }
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a;
+  color: #57cbcc;
 }
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
@@ -1094,12 +1094,13 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 5px #57cbcc, 13px 13px 0 #03787a;
 }
 
 .service-block .service-icon {
   margin-bottom: 10px;
   font-size: 50px;
+  color: #57cbcc
 }
 
 /*=================================================================
@@ -2089,5 +2090,7 @@ blockquote {
 .form-group:last-child input {
   margin: 0;
 }
+.Online-Logo {height:60px !important;
+width: 60px !important;}
 
 /*# sourceMappingURL=maps/style.css.map */
